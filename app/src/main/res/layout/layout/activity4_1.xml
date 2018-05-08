@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.youandme.www.youandme.Activity4_1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/activity4_1_back_arrow"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/icon_img_arrow" />
+
+            <TextView
+                android:id="@+id/text_main_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="계정 연동하기"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="93dp"
+        android:textSize="14dp"
+        android:textColor="#9B9B9B"
+        android:text="휴대전화 분실 혹은 휴대전화버호 변경을 대비하여, 계정을 연동해주세요. SNS서비스 혹은 이메일을 통해 안전하게 연락처를 보관할 수 있습니다."/>
+
+
+    <RelativeLayout
+        android:id="@+id/linked_layout1"
+        android:background="@drawable/background_email_button"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="270dp"
+        android:layout_height="34dp"
+        android:elevation="2dp">
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_mail_small"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이메일로 연동하기"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView4" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="#0F5EB9"
+        android:layout_marginBottom="12dp"
+        android:layout_width="270dp"
+        android:layout_height="34dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_fb_small"
+            android:layout_marginLeft="24.5dp"
+            android:layout_marginStart="24.5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="페이스북으로 연동하기"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView5" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="#FF432E"
+        android:layout_width="270dp"
+        android:layout_height="34dp"
+        android:elevation="3dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_gg_small"
+            android:layout_marginLeft="24.2dp"
+            android:layout_marginStart="24.2dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="구글계정으로 연동하기"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView6" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_width="180dp"
+        android:layout_height="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:text="로그아웃 하시겠어요?"
+        android:textColor="#3b3b3b"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_cancel_dialog_logout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="#888888"
+            android:text="취소"
+            android:textColor="#fafafa"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_ok_dialog_logout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="#3086cc"
+            android:text="확인"
+            android:textColor="#fafafa"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

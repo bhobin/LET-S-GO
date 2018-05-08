@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coach_mark_master_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="221"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/coach_imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3.2dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/coach_menu" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="235"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="228"></RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="312">
+
+            <ImageView
+                android:id="@+id/coach_imageView2"
+                android:layout_width="203dp"
+                android:layout_height="78dp"
+                android:alpha="0.8"
+                android:src="@drawable/coach_box" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="220"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="240"></RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="295">
+
+            <ImageView
+                android:id="@+id/coach_imageView3"
+                android:layout_width="196dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="5dp"
+                android:alpha="0.8"
+                android:src="@drawable/coach_box2" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="265"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="260"></RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="345">
+
+            <ImageView
+                android:id="@+id/coach_imageView4"
+                android:layout_width="196dp"
+                android:layout_height="87dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.8"
+                android:src="@drawable/coach_box3" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
